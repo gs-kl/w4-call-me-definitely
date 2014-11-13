@@ -13,4 +13,4 @@ Susan Jones,0
 ```
 
 ### Use
-Run `ruby call-me-definitely.rb` in the directory of that script. Optionally, create a shell alias to more conveniently run the script. If the files are in your home directory and you are using Bash, you could run: `echo "alias cmd='ruby ~/call-me-definitely.rb'" >> .bashrc`.
+Run `ruby call-me-definitely.rb` in the directory of that script. Optionally, create a shell alias to more conveniently run the script. If the files are in your home directory and you are using Bash, you could run: `echo "alias cmd='ruby ~/call-me-definitely.rb'" >> ~/.bashrc` and then `source ~/.bashrc`. Subsequently, `cmd` would run the script.
