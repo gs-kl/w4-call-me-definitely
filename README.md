@@ -4,7 +4,7 @@
 Chooses a random student from the class to answer a question or perform another pleasant and educative task. Keeps track of how many times students have been called in order to ensure that all students are eventually called an equal number of times.
 
 ## Setup
-Create a file called `students.csv` in the same directory as `call-me-definitely.rb`. Enter into this file a list of student names and number of times called (a good default is 0) in the following format:
+Create the file `students.csv` in the same directory as `call-me-definitely.rb`. Enter into this file a list of student names and number of times called (zero is probably the most suitable initial value) in the following format:
 
 ```
 Bob Smith,0
